@@ -27,7 +27,7 @@ const Login: NextPage = () => {
   return (
     <div className="flex justify-center py-20">
       <div className="md:w-96 p-8 md:border border-black border-opacity-10 md:shadow-sm md:rounded-md">
-        <h1 className="text-gray-900 font-medium text-center uppercase">Loginr</h1>
+        <h1 className="text-gray-900 font-medium text-center uppercase">Login</h1>
         <hr className="my-3" />
         <form
           onSubmit={handleSubmit(onSubmit)}
